@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5b21b6"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)"/>
+  
+  <!-- Sun rays -->
+  <g stroke="#fbbf24" stroke-width="4" stroke-linecap="round" opacity="0.9">
+    <line x1="100" y1="18" x2="100" y2="32"/>
+    <line x1="100" y1="168" x2="100" y2="182"/>
+    <line x1="18" y1="100" x2="32" y2="100"/>
+    <line x1="168" y1="100" x2="182" y2="100"/>
+    <line x1="42" y1="42" x2="52" y2="52"/>
+    <line x1="148" y1="148" x2="158" y2="158"/>
+    <line x1="158" y1="42" x2="148" y2="52"/>
+    <line x1="52" y1="148" x2="42" y2="158"/>
+  </g>
+  
+  <!-- Sun circle -->
+  <circle cx="100" cy="72" r="22" fill="url(#sunGrad)"/>
+  
+  <!-- Solar panel body -->
+  <rect x="45" y="100" width="110" height="55" rx="4" fill="url(#panelGrad)" stroke="#94a3b8" stroke-width="1.5"/>
+  
+  <!-- Panel grid lines horizontal -->
+  <line x1="45" y1="118" x2="155" y2="118" stroke="#64748b" stroke-width="1"/>
+  <line x1="45" y1="136" x2="155" y2="136" stroke="#64748b" stroke-width="1"/>
+  
+  <!-- Panel grid lines vertical -->
+  <line x1="72" y1="100" x2="72" y2="155" stroke="#64748b" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="155" stroke="#64748b" stroke-width="1"/>
+  <line x1="128" y1="100" x2="128" y2="155" stroke="#64748b" stroke-width="1"/>
+  
+  <!-- Panel shine -->
+  <rect x="48" y="103" width="30" height="8" rx="2" fill="#ffffff" opacity="0.25"/>
+  
+  <!-- Stand/base -->
+  <path d="M85 155 L100 170 L115 155" fill="none" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="75" y1="172" x2="125" y2="172" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+</svg>

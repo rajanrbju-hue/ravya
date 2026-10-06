@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ravya Enterprises - Leading Solar EPC Company in Motihari, East Champaran, Bihar. Rooftop solar solutions, on-grid, off-grid, hybrid systems. UTL & TATA panels.">
+  <meta name="keywords" content="solar energy, Motihari, Bihar, rooftop solar, solar panels, UTL, TATA, East Champaran, Ravya Enterprises">
+  <title>Ravya Enterprises | Best Solar Energy Company in Motihari, Bihar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Quick Enquiry Modal (shows on every load) -->
+  <div id="enquiryModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" id="modalClose">&times;</span>
+      <div class="modal-header">
+        <i class="fas fa-solar-panel"></i>
+        <h2>Quick Enquiry</h2>
+        <p>Get a free solar consultation today!</p>
+      </div>
+      <form id="quickEnquiryForm" class="enquiry-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name *" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Phone Number *" required pattern="[0-9]{10}">
+        </div>
+        <div class="form-group">
+          <select name="interest" required>
+            <option value="">Select Interest *</option>
+            <option value="Residential Solar">Residential Solar</option>
+            <option value="Commercial Solar">Commercial Solar</option>
+            <option value="Industrial Solar">Industrial Solar</option>
+            <option value="Subsidy Query">Government Subsidy</option>
+            <option value="AMC">Annual Maintenance</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="3" placeholder="Your Message (optional)"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fas fa-paper-plane"></i> Submit Enquiry
+        </button>
+      </form>
+      <p class="modal-note">Or call us: <a href="tel:9410105257">9410105257</a></p>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919410105257?text=Hello%20Ravya%20Enterprises%2C%20I%20am%20interested%20in%20solar%20solutions." 
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="header">
+    <div class="top-bar">
+      <div class="container">
+        <div class="top-bar-left">
+          <span><i class="fas fa-map-marker-alt"></i> Motihari, Bihar 845401</span>
+          <span><i class="fas fa-clock"></i> Mon–Sun: 24 Hours</span>
+        </div>
+        <div class="top-bar-right">
+          <a href="tel:9410105257"><i class="fas fa-phone-alt"></i> 9410105257</a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#home" class="logo">
+          <img src="assets/logo.jpg" alt="Ravya Enterprises Logo" class="logo-img">
+          <span class="logo-text">Ravya <strong>Enterprises</strong></span>
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="https://wa.me/919410105257" class="btn btn-whatsapp" target="_blank">
+          <i class="fab fa-whatsapp"></i> Contact Us
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Solar Image Background -->
+  <section class="hero" id="home">
+    <div class="hero-bg" style="background-image: url('assets/hero-solar.jpg');"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-badge"><i class="fas fa-bolt"></i> Solar Energy Company</p>
+      <h1>Powering East Champaran<br>with Clean Solar Energy</h1>
+      <p class="hero-desc">
+        Leading Solar EPC company in Motihari offering complete rooftop solar solutions 
+        for homes, businesses, schools, hospitals & industries. Premium panels from UTL & TATA.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          <i class="fas fa-solar-panel"></i> Get Free Quote
+        </a>
+        <a href="tel:9410105257" class="btn btn-outline btn-lg">
+          <i class="fas fa-phone"></i> Call Now
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">5.0</span>
+          <span class="stat-label">Google Rating</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Support</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">UTL & TATA</span>
+          <span class="stat-label">Premium Brands</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2>Trusted Solar Partner in Motihari</h2>
+        <p>Quality workmanship • Transparent pricing • Reliable after-sales service</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-content">
+          <h3>Ravya Enterprises – Solar Energy Company</h3>
+          <p>
+            Ravya Enterprises is one of the leading Solar EPC companies in Motihari, East Champaran, 
+            providing complete rooftop solar solutions for homes, businesses, schools, hospitals, 
+            industries, and commercial establishments.
+          </p>
+          <p>
+            We specialize in <strong>on-grid, off-grid, and hybrid solar systems</strong> with professional 
+            installation, net metering assistance, government subsidy support, annual maintenance, 
+            and project financing.
+          </p>
+          <p>
+            We offer premium solar panels, inverters, and batteries from trusted brands like 
+            <strong>UTL and TATA</strong>. Serving Motihari, Chakia, Raxaul, Sugauli, Kesariya, 
+            Piprakothi, Mehsi, Turkaulia, and the entire East Champaran district.
+          </p>
+          <ul class="about-features">
+            <li><i class="fas fa-check-circle"></i> Professional Installation</li>
+            <li><i class="fas fa-check-circle"></i> Government Subsidy Support</li>
+            <li><i class="fas fa-check-circle"></i> Net Metering Assistance</li>
+            <li><i class="fas fa-check-circle"></i> Annual Maintenance Contracts</li>
+            <li><i class="fas fa-check-circle"></i> Project Financing Available</li>
+            <li><i class="fas fa-check-circle"></i> Transparent Pricing</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="assets/photo1.jpg" alt="Ravya Enterprises Shop Front" loading="lazy">
+          <div class="about-badge">
+            <i class="fas fa-star"></i>
+            <span>5.0 Rating on Google</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services section bg-light" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2>Complete Solar Solutions</h2>
+        <p>From consultation to installation and maintenance – we handle everything</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-home"></i></div>
+          <h3>Residential Solar</h3>
+          <p>Custom rooftop solar systems for homes. Reduce electricity bills and enjoy clean energy with government subsidy benefits.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-building"></i></div>
+          <h3>Commercial Solar</h3>
+          <p>Solar solutions for offices, shops, schools, hospitals and commercial buildings. Maximize savings and sustainability.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-industry"></i></div>
+          <h3>Industrial Solar</h3>
+          <p>Large-scale solar power plants for industries. Reliable power, reduced operational costs and green credentials.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-solar-panel"></i></div>
+          <h3>On-Grid Systems</h3>
+          <p>Grid-tied solar systems with net metering. Export excess power and earn credits on your electricity bill.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-battery-full"></i></div>
+          <h3>Off-Grid & Hybrid</h3>
+          <p>Battery-backed systems for uninterrupted power. Ideal for areas with frequent outages or no grid access.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>AMC & Maintenance</h3>
+          <p>Annual maintenance contracts, cleaning, performance monitoring and repairs to keep your system running optimally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How It Works</span>
+        <h2>Simple 4-Step Process</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h3>Free Consultation</h3>
+          <p>We assess your energy needs, roof space and recommend the best solar solution tailored for you.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h3>Site Survey & Design</h3>
+          <p>Detailed site survey, system design, subsidy documentation and transparent quotation.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h3>Installation</h3>
+          <p>Professional installation by trained technicians using premium UTL / TATA components.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h3>Commissioning & Support</h3>
+          <p>Net metering, testing, handover and ongoing after-sales support & AMC.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery section bg-light" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2>Photo Gallery</h2>
+        <p>Glimpses of our shop and solar installations</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/photo1.jpg" alt="Ravya Enterprises Shop" loading="lazy">
+          <div class="gallery-overlay"><span>Our Shop Front</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/photo2.jpg" alt="Ravya Enterprises Interior" loading="lazy">
+          <div class="gallery-overlay"><span>Office & Showroom</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/photo3.jpg" alt="Solar Panel Installation" loading="lazy">
+          <div class="gallery-overlay"><span>Solar Array Installation</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/photo4.jpg" alt="Rooftop Solar System" loading="lazy">
+          <div class="gallery-overlay"><span>Rooftop Solar Project</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/photo5.jpg" alt="Ravya Enterprises Store" loading="lazy">
+          <div class="gallery-overlay"><span>Store View</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/solar-hd1.jpg" alt="Solar Farm HD" loading="lazy">
+          <div class="gallery-overlay"><span>Solar Farm</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/solar-hd2.jpg" alt="Rooftop Solar Panels HD" loading="lazy">
+          <div class="gallery-overlay"><span>Rooftop Solar Panels</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/solar-hd3.jpg" alt="Solar Panel Array HD" loading="lazy">
+          <div class="gallery-overlay"><span>Solar Panel Array</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/solar-hd4.jpg" alt="Solar Installation HD" loading="lazy">
+          <div class="gallery-overlay"><span>Solar Installation</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2>Why Ravya Enterprises?</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <i class="fas fa-award"></i>
+          <h3>Quality Brands</h3>
+          <p>Only premium panels, inverters & batteries from UTL and TATA.</p>
+        </div>
+        <div class="why-card">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h3>Subsidy Support</h3>
+          <p>Full assistance for PM Surya Ghar and state government subsidies.</p>
+        </div>
+        <div class="why-card">
+          <i class="fas fa-user-tie"></i>
+          <h3>Expert Team</h3>
+          <p>Experienced technicians and transparent, professional service.</p>
+        </div>
+        <div class="why-card">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support</h3>
+          <p>Always available for queries, support and emergency assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section bg-light" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Contact Us</h2>
+        <p>Ready to go solar? Reach out for a free consultation</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Address</h4>
+              <p>Near Yuvraj Hotel, Hariyan Chhapra,<br>Dhaka Road, Motihari, Bihar 845401</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:9410105257">9410105257</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/919410105257" target="_blank">Chat with us</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday – Sunday: 24 Hours</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-star"></i>
+            <div>
+              <h4>Google Rating</h4>
+              <p>5.0 ★ based on reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <h3>Send us a Message</h3>
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" name="name" placeholder="Full Name *" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" name="phone" placeholder="Phone Number *" required pattern="[0-9]{10}">
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <select name="service" required>
+                <option value="">Select Service *</option>
+                <option value="Residential">Residential Solar</option>
+                <option value="Commercial">Commercial Solar</option>
+                <option value="Industrial">Industrial Solar</option>
+                <option value="Subsidy">Subsidy Assistance</option>
+                <option value="AMC">Maintenance / AMC</option>
+                <option value="Other">Other Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="4" placeholder="Your Message *" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Google Map -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14300.0!2d84.9372154!3d26.6538191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399335d6f9d1e65d%3A0x6db03245aa105d9e!2sRavya%20Enterprises!5e0!3m2!1sen!2sin!4v1728000000000!5m2!1sen!2sin" 
+          width="100%" 
+          height="400" 
+          style="border:0; border-radius: 12px;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ravya Enterprises Location Map">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Switch to Solar?</h2>
+      <p>Get a free site survey and customized quote today. Save money, go green!</p>
+      <div class="cta-btns">
+        <a href="https://wa.me/919410105257" class="btn btn-white" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+        <a href="tel:9410105257" class="btn btn-outline-white">
+          <i class="fas fa-phone"></i> 9410105257
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <img src="assets/logo.jpg" alt="Ravya Enterprises Logo" class="logo-img">
+            <span class="logo-text">Ravya <strong>Enterprises</strong></span>
+          </a>
+          <p>Leading Solar EPC company in Motihari, East Champaran. Complete rooftop solar solutions with premium brands and reliable service.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Residential Solar</a></li>
+            <li><a href="#services">Commercial Solar</a></li>
+            <li><a href="#services">Industrial Solar</a></li>
+            <li><a href="#services">On-Grid / Hybrid</a></li>
+            <li><a href="#services">AMC & Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Near Yuvraj Hotel, Hariyan Chhapra, Dhaka Road, Motihari, Bihar 845401</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:9410105257">9410105257</a></p>
+          <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919410105257" target="_blank">WhatsApp</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ravya Enterprises. All rights reserved.</p>
+        <p>Serving Motihari, Chakia, Raxaul, Sugauli, Kesariya & entire East Champaran</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Success Toast -->
+  <div id="toast" class="toast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMsg">Thank you! We will contact you soon.</span>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
